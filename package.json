@@ -1,0 +1,26 @@
+{
+  "name": "exploration",
+  "version": "1.0.0",
+  "description": "Personal Projects and Exploration of new ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASIF-Mahmud1/Exploration.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React-Native",
+    "TypeScript",
+    "Python"
+  ],
+  "author": "Asif Mahmud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASIF-Mahmud1/Exploration/issues"
+  },
+  "homepage": "https://github.com/ASIF-Mahmud1/Exploration#readme"
+}
