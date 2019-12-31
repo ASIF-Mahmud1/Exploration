@@ -24,6 +24,12 @@
   },
   "homepage": "https://github.com/ASIF-Mahmud1/Exploration#readme",
   "dependencies": {
-    "three": "^0.111.0"
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.1.2",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "three": "^0.111.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
   }
 }
