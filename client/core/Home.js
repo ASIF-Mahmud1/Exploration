@@ -5,7 +5,7 @@ import Card, { CardContent, CardActions, CardMedia } from 'material-ui/Card'
 import Typography from 'material-ui/Typography'
 import seashellImg from './../assets/images/seashell.jpg'
 import Button from 'material-ui/Button'
-import { list } from '../solver/api-solver'
+import { list,optimize } from '../solver/api-solver'
 import TextField from 'material-ui/TextField'
 import Table, {
   TableHead,
@@ -37,14 +37,34 @@ class Home extends Component {
     table_wood :0,
     table_labor:0,
     table_profit: 0,
+    table_storage:0,
 
-    dress_wood :0,
-    dress_labor:0,
-    dress_profit:0
+    dresser_wood :0,
+    dresser_labor:0,
+    dresser_profit:0,
+    dresser_storage:0
 
   }
   clickSubmit = () => {
-    list().then((data) => {
+    //////////////////////////////////////////////////////////////////
+
+  let   furniture = {
+      "optimize": "profit",
+      "opType": "max",
+      "constraints": {
+          "wood": {"max": this.state.constrain_wood},  // 300
+          "labor": {"max": this.state.constrain_labor},  // 110
+          "storage": {"max": this.state.constrain_storage} //400
+      },
+      "variables": {
+          "table": {"wood": this.state.table_wood, "labor": this.state.table_labor, "profit": this.state.table_profit, "table": 1, "storage": 30},   // {"wood": 30, "labor": 5, "profit": 1200, "table": 1, "storage": 30}
+          "dresser": {"wood": this.state.dresser_wood, "labor": this.state.dresser_labor, "profit": this.state.dresser_profit, "dresser": 1, "storage": 50} //  {"wood": 20, "labor": 10, "profit": 1600, "dresser": 1, "storage": 50}
+      },
+      "ints": {"table": 1, "dresser": 1}
+  }
+  console.log(furniture)
+    ///////////////////////////////////////////////////////////////
+    optimize({furniture}).then((data) => {
       if (data.error) {
         console.log("Gotta error")
       }
@@ -74,19 +94,19 @@ class Home extends Component {
          </TableHead>
          <TableBody> 
          <TableRow>
-         <TableCell><Typography>Dresser </Typography></TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
+         <TableCell><Typography>Dresser </Typography></TableCell> 
+         <TableCell><TextField placeholder="Quantitiy" type="number"  value={this.state.dresser_wood} onChange={this.handleChange('dresser_wood')}/>  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.dresser_labor} onChange={this.handleChange('dresser_labor')} />  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.dresser_profit} onChange={this.handleChange('dresser_profit')}/>  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.dresser_storage} onChange={this.handleChange('dresser_storage')}/>  </TableCell>
 
            </TableRow>
            <TableRow>
          <TableCell><Typography>Table </Typography></TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
-         <TableCell><TextField placeholder="Quzntitiy" />  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.table_wood} onChange={this.handleChange('table_wood')} />  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.table_labor} onChange={this.handleChange('table_labor')}/>  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.table_profit} onChange={this.handleChange('table_profit')}/>  </TableCell>
+         <TableCell><TextField placeholder="Quantitiy" type="number" value={this.state.table_storage} onChange={this.handleChange('table_storage')}/>  </TableCell>
 
            </TableRow>
          </TableBody>
@@ -97,9 +117,9 @@ class Home extends Component {
           Welcome to the MERN Skeleton home page.
             </Typography>
 
-        <TextField id="wood" label="Wood" className={classes.textField} value={this.state.wood} onChange={this.handleChange('wood')} margin="normal" /><br />
-        <TextField id="labor" label="Labor" className={classes.textField} value={this.state.labor} onChange={this.handleChange('labor')} margin="normal" /><br />
-        <TextField id="storage" label="Storage" className={classes.textField} value={this.state.storage} onChange={this.handleChange('storage')} margin="normal" /><br />
+        <TextField id="wood" label="Wood" className={classes.textField} value={this.state.constrain_wood} onChange={this.handleChange('constrain_wood')} margin="normal" /><br />
+        <TextField id="labor" label="Labor" className={classes.textField} value={this.state.constrain_labor} onChange={this.handleChange('constrain_labor')} margin="normal" /><br />
+        <TextField id="storage" label="Storage" className={classes.textField} value={this.state.constrain_storage} onChange={this.handleChange('constrain_storage')} margin="normal" /><br />
         <CardActions>
           <Button color="primary" variant="raised" onClick={this.clickSubmit} className={classes.submit}>Get Me Mah Calculationz</Button>
         </CardActions>

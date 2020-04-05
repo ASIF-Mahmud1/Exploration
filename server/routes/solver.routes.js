@@ -4,7 +4,7 @@ const router = express.Router()
 
 router.route('/api/solver')
   .get( solverCtrl.list)
- 
+  .post(solverCtrl.optimize)
 
 
 export default router
