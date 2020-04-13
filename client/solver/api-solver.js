@@ -1,6 +1,5 @@
 
   const optimize = (furniture) => {
-    console.log("Inside ")
     return fetch('/api/solver/', {
         method: 'POST',
         headers: {

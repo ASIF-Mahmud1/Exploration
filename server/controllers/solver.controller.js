@@ -4,14 +4,9 @@ import errorHandler from './../helpers/dbErrorHandler'
 import Solver from '../../node_modules/javascript-lp-solver'
 
 const optimize = (req, res, next) => {
-  console.log("serverr",req.body)
- const furniture= req.body
-const  results = Solver.Solve(furniture)    
-  //   res.status(200).json({
-  //     message: "Successfully signed up!",
-  //  //   results: results
-  //   })
-  res.json({a: 'good'})
+
+const  results = Solver.Solve(req.body)
+res.json(results)
 }
 
 const list = (req, res) => {

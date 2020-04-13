@@ -64,7 +64,7 @@ class Home extends Component {
   }
   console.log(furniture)
     ///////////////////////////////////////////////////////////////
-    optimize({furniture}).then((data) => {
+    optimize(furniture).then((data) => {
       if (data.error) {
         console.log("Gotta error")
       }
