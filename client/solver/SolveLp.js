@@ -12,7 +12,6 @@ import Table, {
   TableRow, TableCell,TableBody
 } from 'material-ui/Table';
 import FurnitureSolver from '../solver/FurnitureSolver.js'
-import SolveLp from '../solver/SolveLp'
 import { Divider } from 'material-ui'
 const styles = theme => ({
   card: {
@@ -30,38 +29,26 @@ const styles = theme => ({
 })
 
 
-class Home extends Component {
+class SolveLp extends Component {
   state = {
-   showFurnitureSolver: true
   }
   
-  clickSubmit=()=>{
-    this.setState((prevState) => ({
-      showFurnitureSolver: !prevState.showFurnitureSolver
-    }))
-  }
+  
 
   render() {
     const { classes } = this.props
     return (
 
       <div>
-        <Typography>Home Page</Typography>
-        <Button color="primary" variant="raised" onClick={this.clickSubmit} className={classes.submit}> {this.state.showFurnitureSolver?" Hide ":"Show " } Furniture Solver</Button>
-        {
-          this.state.showFurnitureSolver &&
-          <FurnitureSolver/>
-        }
-        <Divider/>
-        <SolveLp/>
-  
+        <Typography>SolveLp Component</Typography>
+     
 </div>
     )
   }
 }
 
-Home.propTypes = {
+SolveLp.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(Home)
+export default withStyles(styles)(SolveLp)
