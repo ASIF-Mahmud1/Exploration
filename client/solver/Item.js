@@ -32,17 +32,20 @@ const styles = theme => ({
 class Item extends Component {
 
 
-
+    handleChange=(event, name)=>{
+      //  this.setState({[name]:Number (event.target.value)  })
+      }
     render() {
+        console.log('Itme, ', this.props)
         const { classes } = this.props
         return (
             <TableRow>
 
-                <TableCell><Typography>{this.props.itemDetails.name}Dresser </Typography></TableCell>
+                <TableCell><Typography>{this.props.itemDetails.name} </Typography></TableCell>
                 {
                     this.props.itemDetails.resources.map((item, index) => {
                         return (
-                            <TableCell><TextField placeholder="Quantitiy" type="number" value={"None"} onChange={this.handleChange('dresser_wood')} />  </TableCell>
+                            <TableCell><TextField placeholder="Quantitiy" type="number" value={0} onChange={()=>{this.handleChange('dresser_wood')}} />  </TableCell>
 
                         )
                     })

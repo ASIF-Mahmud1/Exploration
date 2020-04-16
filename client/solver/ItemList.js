@@ -33,23 +33,30 @@ const styles = theme => ({
 class ItemList extends Component {
 
     render() {
+        console.log("test", this.props)
         const { classes } = this.props
         return (
 
             <div>
+                <Typography></Typography>
                 <Table>
                     <TableHead>
-                        <TableCell>Item</TableCell>
-                        <TableCell>Wood</TableCell>
-                        <TableCell>Labor</TableCell>
-                        <TableCell>Profit</TableCell>
-                        <TableCell>Storage</TableCell>
+                    <TableCell></TableCell>
+                         { this.props.items.length>0 &&
+                            this.props.items[0].resources.map((resource,index)=>{
+                                return(
+                                <TableCell>Resource Title</TableCell>
+
+                                )
+                            })
+                        } 
+                       
                     </TableHead>
                     <TableBody>
                         {
                             this.props.items.map((item, index) => {
                                 return (
-                                    <Item itemsDetails={item} />
+                                    <Item itemDetails={item} />
                                 )
                             })
                         }

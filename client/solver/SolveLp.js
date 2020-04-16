@@ -33,7 +33,8 @@ const styles = theme => ({
 class SolveLp extends Component {
   state = {
     numberOfItems: 0,
-    numberOfResources: 0
+    numberOfResources: 0,
+    items:[]
 
   }
 
@@ -41,7 +42,9 @@ handleChange=(event, name)=>{
   this.setState({[name]:Number (event.target.value)  })
 }
 onSubmit=()=>{
-  console.log(this.state)
+
+  let temp = Array(this.state.numberOfItems).fill({name: "Item Name", resources:Array(this.state.numberOfResources).fill(0)})
+  this.setState({items:temp})
 }
 
   render() {
@@ -55,6 +58,7 @@ onSubmit=()=>{
         <Button  color="primary" variant="raised" onClick={()=>{this.onSubmit()} }>
           Create Cells
         </Button>
+        <ItemList items={this.state.items} />
       </div>
     )
   }
@@ -65,3 +69,4 @@ SolveLp.propTypes = {
 }
 
 export default withStyles(styles)(SolveLp)
+//{[{name: 'Dresser', resources:[1,2]},{name: 'Table', resources:[1,2]}]}
