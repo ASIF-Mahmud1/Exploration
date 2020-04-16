@@ -41,6 +41,9 @@ class SolveLp extends Component {
 handleChange=(event, name)=>{
   this.setState({[name]:Number (event.target.value)  })
 }
+handleResources=(event, index)=>{
+console.log(`From index ${index}: ${event.target.value}`)
+}
 onSubmit=()=>{
 
   let temp = Array(this.state.numberOfItems).fill({name: "Item Name", resources:Array(this.state.numberOfResources).fill(0)})
@@ -58,7 +61,7 @@ onSubmit=()=>{
         <Button  color="primary" variant="raised" onClick={()=>{this.onSubmit()} }>
           Create Cells
         </Button>
-        <ItemList items={this.state.items} />
+        <ItemList items={this.state.items} handleResources={this.handleResources} />
       </div>
     )
   }
