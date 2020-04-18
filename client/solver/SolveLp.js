@@ -41,8 +41,12 @@ class SolveLp extends Component {
 handleChange=(event, name)=>{
   this.setState({[name]:Number (event.target.value)  })
 }
-handleResources=(event, index)=>{
-console.log(`From index ${index}: ${event.target.value}`)
+handleResources=(event,rowIndex, columnindex)=>{
+  let temp= this.state.items
+  temp[rowIndex]['resources'][columnindex]= event.target.value
+  this.setState({
+    items: temp  
+  })
 }
 onSubmit=()=>{
 

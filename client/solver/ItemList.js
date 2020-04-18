@@ -56,7 +56,7 @@ class ItemList extends Component {
                         {
                             this.props.items.map((item, index) => {
                                 return (
-                                    <Item itemDetails={item} handleResources={this.props.handleResources} />
+                                    <Item items={this.props.items} itemDetails={item} handleResources={this.props.handleResources} rowIndex= {index} />
                                 )
                             })
                         }
