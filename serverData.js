@@ -37,7 +37,7 @@ const serverData=
                         "mDay": "pm",
                         "mMeal": "After Meal",
                         "mQuantity": "65",
-                        "mInstruction": "hgfhfg "
+                        "mInstruction": "From Server"
                     }
                 ],
                 "_id": "5fcf42aa947eb420d864b6a2",
@@ -56,7 +56,7 @@ const serverData=
                         "mDay": "pm",
                         "mMeal": "After Meal",
                         "mQuantity": "4",
-                        "mInstruction": "fdsf"
+                        "mInstruction": "From Server"
                     }
                 ],
                 "_id": "5fcf5072947eb420d864b706",
@@ -96,7 +96,7 @@ const serverData=
                         "mDay": "pm",
                         "mMeal": "After Meal",
                         "mQuantity": "5",
-                        "mInstruction": "dffgdf"
+                        "mInstruction": "From Server"
                     }
                 ],
                 "_id": "5fcf4407947eb420d864b6a8",
@@ -132,7 +132,7 @@ const serverData=
                         "mDay": "pm",
                         "mMeal": "After Meal",
                         "mQuantity": "5",
-                        "mInstruction": "erewrwewer"
+                        "mInstruction": "From Server"
                     }
                 ],
                 "_id": "5fd5e31a64587b0868f6b6ac",
@@ -168,7 +168,7 @@ const serverData=
                         "mDay": "pm",
                         "mMeal": "After Meal",
                         "mQuantity": "5",
-                        "mInstruction": "hgyugyu"
+                        "mInstruction": "From Server"
                     }
                 ],
                 "_id": "5fd6195403ae5120944d0a0f",
