@@ -1,18 +1,12 @@
-var AWS = require("aws-sdk");
-AWS.config.update({region: 'us-west-2'});
-AWS.config.loadFromPath('./config.json'); // accessKeyId, secretAccessKey, region
+// Load the SDK and UUID
+var AWS = require('aws-sdk');
 var uuid = require('uuid');
+
 // Create unique bucket name
 var bucketName = 'node-sdk-sample-' + uuid.v4();
 // Create name for uploaded object key
 var keyName = 'hello_world.txt';
 
-AWS.config.getCredentials(function(err) {
-  if (err) console.log(err.stack);
-  // credentials not loaded
-  else {
-    console.log("Access key:", AWS.config.credentials.accessKeyId);
-    ///////////////////////////////////////////////////////////////////////////
 // Create a promise on S3 service object
 var bucketPromise = new AWS.S3({apiVersion: '2006-03-01'}).createBucket({Bucket: bucketName}).promise();
 
@@ -31,7 +25,3 @@ bucketPromise.then(
   function(err) {
     console.error(err, err.stack);
 });
-    //////////////////////////////////////////////////////////////////////////
-  }
-});
-
