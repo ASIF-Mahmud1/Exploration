@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ASIF-Mahmud1/Exploration#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "json-rules-engine": "^6.0.0"
+    "json-rules-engine": "^6.0.0",
+    "lodash": "^4.17.21"
   }
 }
