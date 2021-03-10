@@ -49,6 +49,7 @@ const eventList=[
     const eventsAttended= userProfile['eventsAddedToCalendar']
     
     let qualityWithFreq={}
+    let eventTagWithFreq={}
     eventsAttended.forEach((event, index) => {
       event.opinion.forEach((qualities)=>{
         if( qualityWithFreq[qualities] )
@@ -71,16 +72,34 @@ const eventList=[
     return  qualityWithFreq
   }
   
-  const popularOpinion=  calculatePopularOpinions(userProfile)
-  console.log(popularOpinion)
+const popularOpinion=  calculatePopularOpinions(userProfile)
+ //console.log(popularOpinion)
   
-  // const calculatePopularTagsOfAnOpinion=(eventList, popularOpinion)=>{
-  //   let list
-  //   for (const property in popularOpinion) {
-     
-  //   }
+  const findEventById=(eventList, eventId)=>{
+    const result = eventList.filter(event => event["eventId"] ==eventId  )
+    return result
+  }
+  
+  // let result= findEventById(eventList, 1)
+
+  const calculatePopularTagsOfAnOpinion=(eventList, popularOpinion)=>{
+   
     
-  //   return 
-  // }
-  
-  
+    for (const property in popularOpinion)
+    {
+      popularOpinion[property]["tag"]=[]
+     let eventIdList= popularOpinion[property]["eventIdList"]
+     eventIdList.forEach((eventId)=>{
+      let result= findEventById(eventList, eventId)
+      if(result.length>0)
+      {
+        popularOpinion[property]["tag"].push(...result[0]['tag'])
+      }
+     })
+    }
+
+    return  popularOpinion 
+  }
+
+  const res= calculatePopularTagsOfAnOpinion(eventList,popularOpinion)
+  console.log(res)
