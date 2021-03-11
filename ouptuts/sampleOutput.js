@@ -34,3 +34,11 @@ const PopularTagsOfAnOpinion =
     }
   }
 }
+
+// Tag Probability Table
+const tagWithProbability=
+ {
+  adventurous: 0.5,
+  fiction: 0.16666666666666666,
+  science: 0.3333333333333333
+ }

@@ -72,7 +72,7 @@ const eventList=[
   }
   
 const popularOpinion=  calculatePopularOpinions(userProfile)
- console.log("Popular Opinions \n", popularOpinion)       // Output: popular Opinions
+ //console.log("Popular Opinions \n", popularOpinion)       // Output: popular Opinions
   
   const findEventById=(eventList, eventId)=>{
     const result = eventList.filter(event => event["eventId"] ==eventId  )
@@ -110,16 +110,33 @@ const popularOpinion=  calculatePopularOpinions(userProfile)
 
   const popularTags= calculatePopularTagsOfAnOpinion(eventList,popularOpinion)
 
- console.log("Popular Tags \n")
- console.dir(popularTags, { depth: null });
+ //console.log("Popular Tags \n")
+ //console.dir(popularTags, { depth: null });
+ 
+ createTagFrequencyTable=(popularTags)=>{
 
-  // const tagPercentage=[]
-  // let totalOpinions=  popularTags["totalOpinions"]
-  // for (const property in popularTags["opinions"])
-  // {
+  const tagProbabilityTable={}
+  let totalOpinions=  popularTags["totalOpinions"]
+  for (const property in popularTags["opinions"])
+  {
     
-  //   let tagWithProbability= popularTags["opinions"][property]['count'] / totalOpinions
-
+    const opinions = popularTags["opinions"][property]
+    for (const singleTag in opinions['tag'])
+    {
+      let tagWithProbability= (opinions['count'] / totalOpinions) * (opinions['tag'][singleTag]/opinions['tagCount'])
+      if (tagProbabilityTable[singleTag])
+      {
+        tagProbabilityTable[singleTag]= tagProbabilityTable[singleTag]+ tagWithProbability
+      } 
+      else 
+      {
+        tagProbabilityTable[singleTag]= tagWithProbability
+      }
+    }
     
-  //   console.log(tagWithProbability)
-  // }
+  }
+  return tagProbabilityTable 
+ }
+ 
+const tagWithProbability=  createTagFrequencyTable(popularTags)
+console.log("Tag Probability Table \n", tagWithProbability)
