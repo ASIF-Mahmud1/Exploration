@@ -4,7 +4,7 @@ const eventList=[
       eventId: 1,
       title:"Mountain Hiking" ,
       summary: "",
-      tag:["adventurous"]
+      tag:["adventurous","fiction"]
     },
     {
       eventId: 2,
@@ -16,7 +16,7 @@ const eventList=[
       eventId: 3,
       title:"Research paper on AI" ,
       summary: "",
-      tag:["science"]
+      tag:["science","adventurous"]
     },
     {
       eventId: 4,
@@ -49,7 +49,6 @@ const eventList=[
     const eventsAttended= userProfile['eventsAddedToCalendar']
     
     let qualityWithFreq={}
-    let eventTagWithFreq={}
     eventsAttended.forEach((event, index) => {
       event.opinion.forEach((qualities)=>{
         if( qualityWithFreq[qualities] )
@@ -73,27 +72,30 @@ const eventList=[
   }
   
 const popularOpinion=  calculatePopularOpinions(userProfile)
- //console.log(popularOpinion)
+ console.log("Popular Opinions \n", popularOpinion)       // Output: popular Opinions
   
   const findEventById=(eventList, eventId)=>{
     const result = eventList.filter(event => event["eventId"] ==eventId  )
     return result
   }
-  
-  // let result= findEventById(eventList, 1)
+  const countOccurrences = arr => arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {});
+
 
   const calculatePopularTagsOfAnOpinion=(eventList, popularOpinion)=>{
    
     
     for (const property in popularOpinion)
     {
-      popularOpinion[property]["tag"]=[]
+    let storeTags=[] 
      let eventIdList= popularOpinion[property]["eventIdList"]
      eventIdList.forEach((eventId)=>{
       let result= findEventById(eventList, eventId)
-      if(result.length>0)
+      if(result.length>0)                                 // event is found in DB
       {
-        popularOpinion[property]["tag"].push(...result[0]['tag'])
+        storeTags.push(...result[0]['tag'])              // for a given opinion what tags are commonly found
+       // console.log("store tags ",storeTags)
+        let countTag=  countOccurrences(storeTags)      // returns an object with tag and their freq.
+        popularOpinion[property]["tag"]= countTag
       }
      })
     }
@@ -101,5 +103,5 @@ const popularOpinion=  calculatePopularOpinions(userProfile)
     return  popularOpinion 
   }
 
-  const res= calculatePopularTagsOfAnOpinion(eventList,popularOpinion)
-  console.log(res)
+  const popularTags= calculatePopularTagsOfAnOpinion(eventList,popularOpinion)
+  console.log("Popular Tags \n",popularTags)
