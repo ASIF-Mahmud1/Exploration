@@ -7,24 +7,30 @@ const popularOpinion =
 }
 
 //Popular tags of  Opinions
-const PopularTagsOfAnOpinion = 
+const PopularTagsOfAnOpinion =
 {
-  brave:
+  totalOpinions: 3,
+  opinions:
   {
-    count: 2,
+    brave:
+    {
+      count: 2,
       eventIdList: [1, 3],
       tag: 
-      {
-        adventurous: 2, fiction:1,  science: 1
-      }
-  },
-  ambitious:
-  {
-    count: 1,
+      { 
+        adventurous: 2, fiction: 1, science: 1 
+      },
+      tagCount: 4
+    },
+    ambitious:
+    {
+      count: 1,
       eventIdList: [3],
       tag: 
-      {
+      { 
         science: 1, adventurous: 1
-      }
+      },
+      tagCount: 2
+    }
   }
 }

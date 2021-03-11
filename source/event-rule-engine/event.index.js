@@ -80,28 +80,46 @@ const popularOpinion=  calculatePopularOpinions(userProfile)
   }
   const countOccurrences = arr => arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {});
 
-
   const calculatePopularTagsOfAnOpinion=(eventList, popularOpinion)=>{
    
-    
+    let totalOpinions= 0  
     for (const property in popularOpinion)
     {
-    let storeTags=[] 
+     let tagCount=0 
+    let storeTags=[]
      let eventIdList= popularOpinion[property]["eventIdList"]
      eventIdList.forEach((eventId)=>{
       let result= findEventById(eventList, eventId)
       if(result.length>0)                                 // event is found in DB
       {
         storeTags.push(...result[0]['tag'])              // for a given opinion what tags are commonly found
-       // console.log("store tags ",storeTags)
-        let countTag=  countOccurrences(storeTags)      // returns an object with tag and their freq.
-        popularOpinion[property]["tag"]= countTag
+        tagCount= tagCount + result[0]['tag'].length
+        // console.log("store tags ",storeTags)
       }
      })
+     let tagsWithOccurence=  countOccurrences(storeTags)      // returns an object with tag and their freq.
+     popularOpinion[property]["tag"]= tagsWithOccurence
+     popularOpinion[property]["tagCount"]= tagCount
+     totalOpinions = totalOpinions+ popularOpinion[property]["count"]
     }
-
-    return  popularOpinion 
+    return {
+      totalOpinions:totalOpinions,
+      opinions: popularOpinion 
+    }
   }
 
   const popularTags= calculatePopularTagsOfAnOpinion(eventList,popularOpinion)
-  console.log("Popular Tags \n",popularTags)
+
+ console.log("Popular Tags \n")
+ console.dir(popularTags, { depth: null });
+
+  // const tagPercentage=[]
+  // let totalOpinions=  popularTags["totalOpinions"]
+  // for (const property in popularTags["opinions"])
+  // {
+    
+  //   let tagWithProbability= popularTags["opinions"][property]['count'] / totalOpinions
+
+    
+  //   console.log(tagWithProbability)
+  // }
