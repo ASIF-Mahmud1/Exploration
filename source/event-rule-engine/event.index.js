@@ -159,7 +159,6 @@ const  newEvents = [
       "dateTime": "2021-03-04T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
-    authorOpinion: "optimistic",
     usersOpininon: {
       brave: 0.5,
       ambitious: 0.2,
@@ -180,7 +179,6 @@ const  newEvents = [
       "dateTime": "2021-03-12T16:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
-    authorOpinion: "brave",
     usersOpininon: {
       brave: 0.5,
       ambitious: 0.2,
@@ -201,7 +199,6 @@ const  newEvents = [
       "dateTime": "2021-04-04T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
-    authorOpinion: "ambitious",
     usersOpininon: {
       brave: 0.5,
       ambitious: 0.2,
@@ -213,7 +210,7 @@ const  newEvents = [
     eventId: 8,
     title: " Girls Inc. | Inspiring All Girls to be Strong, Smart, & Bold",
     summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ipsum nec risus facilisis iaculis. Nullam quam massa, viverra suscipit turpis sit amet, tempor pretium felis. Aliquam quis vestibulum nisi.",
-    tag: ["empowerment"],
+    tag: ["empowerment","brave"],
     endTime: {
       "dateTime": "2021-03-05T14:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
@@ -222,7 +219,6 @@ const  newEvents = [
       "dateTime": "2021-03-05T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
-    authorOpinion: "brave",
     usersOpininon: {
       brave: 0.5,
       ambitious: 0.2,
@@ -287,7 +283,8 @@ const recommendEvents = (newEvents, tagWithProbability)=>{
 
 const getEventsBasedOnOpinion= (eventList, opinion)=>{
   let result= eventList.filter((singleEvent, index)=>{
-    if ( opinion== singleEvent["authorOpinion"] )      // author opinion matches, with opinion we are  looking for
+    const authorOpinion = singleEvent['tag'].find(tag => tag == opinion) // search for opinion in the tag list
+    if ( opinion== authorOpinion )      // author opinion matches, with opinion we are  looking for
     {
       singleEvent['weightedOpinion']= singleEvent["usersOpininon"][opinion]+ 1   // 50 % weight to userOpinion and 50 % weight to authorOpinion 
     }
