@@ -142,8 +142,8 @@ const popularOpinion=  calculatePopularOpinions(userProfile)
   return sortTag 
  }
  
-const tagWithProbability=  createTagFrequencyTable(popularTags)
-console.log("Tag Probability Table \n", tagWithProbability)
+// const tagWithProbability=  createTagFrequencyTable(popularTags)
+// console.log("Tag Probability Table \n", tagWithProbability)
 
 const  newEvents = [
   {
@@ -159,6 +159,13 @@ const  newEvents = [
       "dateTime": "2021-03-04T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
+    authorOpinion: "optimistic",
+    usersOpininon: {
+      brave: 0.5,
+      ambitious: 0.2,
+      optimistic:0.1,
+      kind:0.2
+    }
   },
   {
     eventId: 6,
@@ -173,6 +180,13 @@ const  newEvents = [
       "dateTime": "2021-03-12T16:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
+    authorOpinion: "brave",
+    usersOpininon: {
+      brave: 0.5,
+      ambitious: 0.2,
+      optimistic:0.1,
+      kind:0.2
+    }
   },
   {
     eventId: 7,
@@ -187,6 +201,13 @@ const  newEvents = [
       "dateTime": "2021-04-04T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
+    authorOpinion: "ambitious",
+    usersOpininon: {
+      brave: 0.5,
+      ambitious: 0.2,
+      optimistic:0.1,
+      kind:0.2
+    }
   },
   {
     eventId: 8,
@@ -201,6 +222,13 @@ const  newEvents = [
       "dateTime": "2021-03-05T12:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
     },
+    authorOpinion: "brave",
+    usersOpininon: {
+      brave: 0.5,
+      ambitious: 0.2,
+      optimistic:0.1,
+      kind:0.2
+    }
   }
 ]
 const findEventByTag=(eventList, tag)=>{ // ask Miss
@@ -253,8 +281,34 @@ const recommendEvents = (newEvents, tagWithProbability)=>{
 
 }
 
- const results= recommendEvents(newEvents,tagWithProbability)
- console.log("Recommended Events \n",results) 
+//  const results= recommendEvents(newEvents,tagWithProbability)
+//  console.log("Recommended Events \n",results) 
+
+
+const getEventsBasedOnOpinion= (eventList, opinion)=>{
+  let result= eventList.filter((singleEvent, index)=>{
+    if ( opinion== singleEvent["authorOpinion"] )      // author opinion matches, with opinion we are  looking for
+    {
+      singleEvent['weightedOpinion']= singleEvent["usersOpininon"][opinion]+ 1   // 50 % weight to userOpinion and 50 % weight to authorOpinion 
+    }
+    else                                              // author's opinion doesn't match with the opinion we are looking for
+    {
+      singleEvent['weightedOpinion']= singleEvent["usersOpininon"][opinion]
+    }
+   
+    return singleEvent['weightedOpinion']  > 0
+  })
+
+  // sort event based on weighted opinion
+  result= result.sort(function (firstEvent, secondEvent) {
+    return secondEvent['weightedOpinion'] - firstEvent['weightedOpinion']
+  })
+
+  return result
+}
+
+const eventBasedOnOpinion=  getEventsBasedOnOpinion(newEvents, "brave")
+console.log("Prefered Events \n",eventBasedOnOpinion)
 
 //  // Shuffle array
 // const shuffled = array.sort(() => 0.5 - Math.random());
