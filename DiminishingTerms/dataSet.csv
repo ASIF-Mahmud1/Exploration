@@ -1,0 +1,77 @@
+id,tag,sentence
+1,diminishing ,I’m no expert but  
+2,strong ,This is what I see
+3,diminishing ,It’s just my opinion  
+4,strong,It’s my opinion 
+5,diminishing ,Just checking in  
+6,strong,Checking in
+7,diminishing ,Just seeing how you feel about this 
+8,strong, How do you feel about this
+9,diminishing ,I just think 
+10,strong, I think
+11,diminishing ,Does this make sense 
+12,strong,Tell me your thoughts
+13,diminishing ,Do you get what I’m saying 
+14,strong, Is this clear
+15,diminishing ,Do you see what I’m saying  
+16,strong,Is this clear
+17,diminishing ,Am I making sense  
+18,strong,Is this clear
+19,diminishing ,I actually disagree 
+20,strong, I disagree
+21,diminishing ,Correct me if I’m wrong  
+21,strong,What is your opinion
+22,diminishing ,I think I can do that   
+23,strong,I can do that
+24,diminishing ,I’m hopeless at  
+25,strong,I’m learning how to
+26,diminishing ,I will try  
+27,strong, I will do
+28,diminishing ,I’m nervous  
+29,strong, I’m excited
+30,diminishing ,I hope I can    
+31,strong,I’m confident I will 
+32,diminishing ,It’s really hard   
+33,strong, It’s a welcome challenge
+34,diminishing ,I’m not good at 
+35,strong, I have yet to learn how
+36,diminishing ,Can you please update  
+37,strong, Please update
+38,diminishing ,I think this is unclear 
+39,strong, This is unclear
+40,diminishing ,If you don’t mind  
+41,strong, Let’s talk about
+42,diminishing ,I just wanted to  
+43,strong,I want to
+44,diminishing ,I hope it is ok to start 
+45,strong, Let’s start
+46,diminishing ,I may be wrong but  
+47,strong,Let’s brainstorm
+48,diminishing ,If it’s ok with you  
+49,strong,Let’s explore
+50,diminishing ,Maybe it’s only me but 
+51,strong, How do you see it?
+52,diminishing ,I don’t want to bother you but  
+53,strong,Do you have time
+54,diminishing ,I’m sorry for making you wait  
+55,strong,Thank you for waiting
+56,diminishing ,My apologies  
+57,strong,Thank you for your patience
+58,diminishing ,Sorry to intrude  
+59,strong,I would like to add to this
+60,diminishing ,Sorry to bother you 
+61,strong,Thank you for taking the time
+62,diminishing ,My bad 
+63,strong, I stand corrected
+64,diminishing ,"Sorry, what was that?   "
+65,strong,Please repeat what you said
+66,diminishing ,Sorry about the noise in the background 
+67,strong,Thank you for putting up with 
+68,diminishing ,Sorry if you didn’t see it 
+69,strong,I missed that
+70,diminishing ,Sorry I’m eating on video here 
+71,strong,Sorry for the inconvinience
+72,diminishing ,Sorry about the dog in the background 
+73,strong,Sorry if I look tired 
+74,diminishing ,"Sorry, I didn’t know "
+75,strong, Thank you for the information
