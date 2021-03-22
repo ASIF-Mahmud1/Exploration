@@ -150,7 +150,7 @@ const  newEvents = [
     eventId: 5,
     title: "Trail Running",
     summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ipsum nec risus facilisis iaculis. Nullam quam massa, viverra suscipit turpis sit amet, tempor pretium felis. Aliquam quis vestibulum nisi.",
-    tag: ["adventurous"],
+    tag: ["adventurous","brave"],
     endTime: {
       "dateTime": "2021-03-04T14:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
@@ -190,7 +190,7 @@ const  newEvents = [
     eventId: 7,
     title: "Will AI take over the World ?",
     summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ipsum nec risus facilisis iaculis. Nullam quam massa, viverra suscipit turpis sit amet, tempor pretium felis. Aliquam quis vestibulum nisi",
-    tag: ["science","adventurous"],
+    tag: ["science","adventurous", "kind"],
     endTime: {
       "dateTime": "2021-04-04T14:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
@@ -210,7 +210,7 @@ const  newEvents = [
     eventId: 8,
     title: " Girls Inc. | Inspiring All Girls to be Strong, Smart, & Bold",
     summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ipsum nec risus facilisis iaculis. Nullam quam massa, viverra suscipit turpis sit amet, tempor pretium felis. Aliquam quis vestibulum nisi.",
-    tag: ["empowerment","brave"],
+    tag: ["empowerment","brave","kind"],
     endTime: {
       "dateTime": "2021-03-05T14:00:00.000Z",
       "timeZone": "BST" // 'America/Los_Angeles'
@@ -304,8 +304,57 @@ const getEventsBasedOnOpinion= (eventList, opinion)=>{
   return result
 }
 
-const eventBasedOnOpinion=  getEventsBasedOnOpinion(newEvents, "brave")
-console.log("Prefered Events \n",eventBasedOnOpinion)
+// const eventBasedOnOpinion=  getEventsBasedOnOpinion(newEvents, "brave")
+// console.log("Prefered Events \n",eventBasedOnOpinion)
+
+const printEvent=(eventList)=>{
+  eventList.forEach((singleEvent)=>{
+    console.log(singleEvent.title," ", singleEvent.totalWeightedOpinion)
+  })
+}
+
+const sortEventsBasedOnScore=(eventList)=>{
+  let result = eventList.map((singleEvent)=>{
+    let totalWeightedOpinion=0
+    Object.entries(singleEvent['weightedOpinion']).forEach(([key, value]) => {
+      totalWeightedOpinion=totalWeightedOpinion+ value
+    })
+     singleEvent["totalWeightedOpinion"]= totalWeightedOpinion
+     return singleEvent
+  })
+   result= result.sort(function (firstEvent, secondEvent) {
+  return secondEvent['totalWeightedOpinion'] - firstEvent['totalWeightedOpinion']
+})
+  return result
+}
+
+const getEventsBasedOnMultipleOpinions= (eventList, traits)=>{                    // traits: list of traits user want to develop
+ let result= eventList.map((singleEvent, index)=>{
+   singleEvent['weightedOpinion']= {}
+   traits.forEach((trait)=>{
+    const authorOpinion = singleEvent['tag'].find(tag => tag == trait)              // search for trait in the tag list
+    
+    if ( trait== authorOpinion )                                                    // author opinion matches, with trait we are  looking for
+    {
+      singleEvent['weightedOpinion'][trait]= singleEvent["usersOpininon"][trait]+ 1   // trait is found in the tag list. So more priority is given to event 
+    }
+    else                                                                             // author's opinion doesn't match with the trait we are looking for
+    {
+      singleEvent['weightedOpinion'][trait]= singleEvent["usersOpininon"][trait]    // priority is equivalent to userOpinion for event
+    }
+   })
+   return singleEvent
+ })
+ result= sortEventsBasedOnScore(result)
+return result
+}
+
+
+
+ const eventBasedOnMultipleOpinion=  getEventsBasedOnMultipleOpinions(newEvents,["kind","brave"])
+ //console.log("Prefered Events \n",eventBasedOnMultipleOpinion)
+   printEvent(eventBasedOnMultipleOpinion)
+
 
 //  // Shuffle array
 // const shuffled = array.sort(() => 0.5 - Math.random());
