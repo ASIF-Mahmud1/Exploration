@@ -1,0 +1,316 @@
+id,tag,sentence
+1,0,I’m no expert but  
+2,1,This is what I see
+3,0,It’s just my opinion  
+4,1,It’s my opinion 
+5,0,Just checking in  
+6,1,Checking in
+7,0,Just seeing how you feel about this 
+8,1, How do you feel about this
+9,0,I just think 
+10,1, I think
+11,0,Does this make sense 
+12,1,Tell me your thoughts
+13,0,Do you get what I’m saying 
+14,1, Is this clear
+15,0,Do you see what I’m saying  
+16,1,Is this clear
+17,0,Am I making sense  
+18,1,Is this clear
+19,0,I actually disagree 
+20,1, I disagree
+21,0,Correct me if I’m wrong  
+21,1,What is your opinion
+22,0,I think I can do that   
+23,1,I can do that
+24,0,I’m hopeless at  
+25,1,I’m learning how to
+26,0,I will try  
+27,1, I will do
+28,0,I’m nervous  
+29,1, I’m excited
+30,0,I hope I can    
+31,1,I’m confident I will 
+32,0,It’s really hard   
+33,1, It’s a welcome challenge
+34,0,I’m not good at 
+35,1, I have yet to learn how
+36,0,Can you please update  
+37,1, Please update
+38,0,I think this is unclear 
+39,1, This is unclear
+40,0,If you don’t mind  
+41,1, Let’s talk about
+42,0,I just wanted to  
+43,1,I want to
+44,0,I hope it is ok to start 
+45,1, Let’s start
+46,0,I may be wrong but  
+47,1,Let’s brainstorm
+48,0,If it’s ok with you  
+49,1,Let’s explore
+50,0,Maybe it’s only me but 
+51,1, How do you see it?
+52,0,I don’t want to bother you but  
+53,1,Do you have time
+54,0,I’m sorry for making you wait  
+55,1,Thank you for waiting
+56,0,My apologies  
+57,1,Thank you for your patience
+58,0,Sorry to intrude  
+59,1,I would like to add to this
+60,0,Sorry to bother you 
+61,1,Thank you for taking the time
+62,0,My bad 
+63,1, I stand corrected
+64,0,"Sorry, what was that?   "
+65,1,Please repeat what you said
+66,0,Sorry about the noise in the background 
+67,1,Thank you for putting up with 
+68,0,Sorry if you didn’t see it 
+69,1,I missed that
+70,0,Sorry I’m eating on video here 
+71,1,Sorry for the inconvinience
+72,0,Sorry about the dog in the background 
+73,1,Sorry if I look tired 
+74,0,"Sorry, I didn’t know "
+75,1, Thank you for the information
+76,0,"I'm so sorry, I do apologize."
+77,0,"Sorry, I don't mean to butt in."
+78,0,"I'm sorry, I've forgotten your name."
+79,0,"Sorry, I can't play tennis with u tomorrow."
+80,0,I am sorry I must disapprove of your action.
+81,0,I'm sorry to be late again.
+82,0,"Sorry, I didn't mean to frighten you."
+83,0,"Sorry, I do not love you."
+84,0,I'm sorry I'm late: My car had a puncture.
+85,0, I'm sorry I can't assist you.
+86,0,I'm sorry I'm a bit early.
+87,0,"I'm sorry, she's tied up at the moment."
+88,0,"Sorry, I'm a stranger here, too."
+89,0,"I'm sorry, but I'm busy right now."
+90,0,I am sorry for what I have done.
+91,0,I'm sorry you had a wasted journey.
+92,0,"Sorry, I must have dialled the wrong number."
+93,0,Would you please do this for me?
+94,0,Please could I leave early today?
+95,0,Please wait for a minute
+96,0,"Will you call your dog off, please?"
+97,0,"Between us, please always remember me."
+98,0,"Could you wait for me, please?"
+99,0,I must apologise for my outrageous behaviour.
+100,0,I apologise for any embarrassment this may have caused.
+101,0,I must apologise that if I offended you I didn't mean to.
+102,0,I apologise for any inconvenience caused.
+103,0, I apologise if I did not make myself clear.
+104,0, I apologise for the delay in arriving.
+105,0,I apologise for the delay in replying to you.
+106,0, Would it bother you if I smoked?
+107,0, I don't want to bother you.
+108,0,"I hate to bother you, but can I ask you a question?"
+109,0, Will it bother you if I turn the television on?
+110,0,"I'm sorry to bother you, but could you tell me the way to the station?"
+111,0,Please repeat what you said.
+112,0," Please repeat what you said, I didn't quite catch on."
+113,0,"Can you  please repeat the phone number slowly, sir."
+114,0,I'm embarrassed of myself.
+115,0,"When I began to sing, he laughed and made me embarrassed."
+116,0, I am embarrassed and I apologise for what I did.
+117,0,I'm embarrassed of myself.
+118,0,"When I began to sing, he laughed and made me embarrassed."
+119,0, I am embarrassed and I apologise for what I did.
+120,0,I am sorry for not answering your letter sooner.
+121,0,I'm sorry. We are quite full tonight.
+122,0,Sorry for the short notice.
+123,0, I’m not sure but 
+124,0,  I’m haven’t studied that but
+125,0,"  How should I know, but "
+126,0,"How could I know , but "
+127,0,Its kinda my opinion
+128,0,Not that my opinion is important
+129,0,Im not sure you need to hear my opinion  
+130,0,Is it ok to check in
+131,0,Maybe checking in
+132,0,Kinda checking in
+133,0,"If its ok, seeing how you feel about this "
+134,0,I am not sure but seeing how you feel about this
+135,0,Wondering if you want to know how i feel about this
+136,0,I want to be careful before i say 
+137,0,Not to say to much about how i think
+138,0,It might not matter but i just think
+139,0,If you care to know I just think
+140,0,Do you think this makes sense
+141,0,Is this ok 
+142,0,Does my thoughts make any sense
+143,0,What i am saying might not matter but
+144,0,I am not sure I am being clear
+145,0,It might be  hard to understand me but
+146,0,"I’,m not sure about that"
+147,0,I’m concert about that
+148,0,"I don’t want to disagree,"
+149,0,I am not sure i should say anything but
+150,0,You might have a better idea but 
+151,0,Its possible i haven’t thought about everything but
+152,0,I am not sure that i am wright but
+153,0,I might be able to do that
+154,0,I could try to do that
+155,0,I will try to do that
+156,0,I know I am no good at 
+157,0,I am anxious that I will do a bad job 
+158,0,I am such a beginner 
+159,0,I am unsure
+160,0,I am not hopeful but
+161,0,I am a disaster
+162,0,I might be able to do
+163,0,I am worried
+164,0,I am apprehensive
+165,0,I am shaky
+166,0,This will be a scary hard
+167,0,This will be a struggle
+168,0,I am super intimidated
+169,0,This is not my strength
+170,0,I never thought i could
+171,0,I might
+172,0,If you don’t mind can you update
+173,0,If you don’t mind can you please update
+174,0,If its no trouble can you update
+175,0,If its no trouble can you please update
+176,0,Can you possibly find some moment to update me
+177,0,I don’t want to bother you but can you update me
+178,0,I don’t want to bother you but might you update me
+179,0,I would be super grateful if you can update me
+180,0,I would be humbled if you can update me
+181,0,Its possible this is unclear
+182,0,I don’t want to bother you but this might be unclear
+183,0,I think this might be unclear
+184,0,It might not be my place to say but this might be unclear
+185,0,It might not be my place but i think this is unclear
+186,0,I’m embarrassed for making you wait
+187,0,I’m embarrassed to make you wait
+188,0,I’m sorry to make you wait
+189,0,I’m so very sorry to make you wait
+190,0,I’m very embarrassed to make you wait
+191,0,I feel bad for making you wait 
+192,0,I am bad for making you wait
+193,0,Am I intruding
+194,0,I don’t want to take your time but
+195,0,I didn’t want to take your time but
+196,0,I am so sorry
+197,0,My bad 
+198,0,I am sorry 
+199,0,If its ok to start
+200,0,If everyone is ready and its ok to start
+201,0,I was just wondering
+202,0,Not to bother you
+203,0,I feel bad for intruding
+204,0,Its my fault
+205,0,I’m to blame 
+206,0,I shouldn’t have done that
+207,0,I will never do that again but
+208,0,"Sorry, I wasn’t listening, what was that "
+209,0,"Sorry, I wasn’t listening, please repeat what you said"
+210,0,"Sorry, I was distracted, what was that"
+211,0,"Sorry, I was distracted, "
+212,0,please repeat what you said
+213,1,Checking in
+214,0,I am sorry to be disturbing you but i just wanted to know how you are  and hope its ok to check in
+215,1,It’s my opinion 
+216,1,I think
+217,0,"It is possible that the way I am thinking is wrong, I just think"
+218,1,How do you feel about this
+219,0,"I worry that asking might not be wright but i want to know,  is it ok to ask how you feel about this"
+220,1,I’m confident I will 
+221,0,I hope I can 
+222,1,I’m excited
+223,0,I am worried and nervous and have butterflies just worrying about it 
+224,1,I will do
+225,0,"I am not sure I can succeed, and so please forgive me if I have trouble,  but I will try"
+226,1,I’m learning how to
+227,0,"get it, in fact maybe i am hopeless at it "
+228,0,"I doubt I can help, and i might not be good at it, and i sometime take a lot of time to"
+229,1,  I can do that
+230,0,"I imagine that if I try and I am lucky too, I might be able to do that"
+231,1,What is your opinion ?
+232,0,"I hope I am not being too intrusive, and   maybe i don’t need to know , and  not sure it matters but,  might you maybe share your opinion "
+233,1,I disagree
+234,0,I actually disagree 
+235,1,Is this clear
+236,0,"Please help me know, I am not sure I am making sense, i don’t want to be misunderstood, is this clear ?"
+237,1,Is this clear
+238,0,"If its ok to ask,  i was just hoping that you might see what I am saying"
+239,1,Is this clear
+240,0,"I am worried I am not clear, I want to be careful to be understood, is it ok to ask if i am being clear"
+241,1,Tell me your thoughts
+242,0,"I defer to you but I want to hear anyway, is it ok to ask you to take a moment to tell me your thoughts"
+243,1,I missed that
+244,0,Sorry if you didn’t see it 
+245,0,Sorry about the noise in the background
+246,0,"Sorry, what was that?"
+247,1,Please repeat what you said
+248,0,My bad
+249,1,Thank you for taking the time
+250,0,Sorry to bother you 
+251,1,Thank you for taking the time
+252,0,Sorry to intrude
+253,0,My apologies 
+254,1,Thank you for waiting
+255,0,I’m sorry for making you wait
+256,1,Thank you for putting up with 
+257,0,I don’t want to bother you but
+258,1,How do you see it?
+259,1,It’s a welcome challenge
+260,0,It’s really hard 
+261,0,"Sorry, I didn’t know "
+262,0,"I am sure you know more than me, I could have learned more, I still just want to consider "
+263,1,I want to
+264,0,I hope it is ok to start 
+265,1,Let’s start
+266,0,I may be wrong but
+267,1,Let’s brainstorm
+268,0,I just wanted to
+269,0,If you don’t mind 
+270,0,If it’s ok with you
+271,1,Let’s explore
+272,0,Maybe it’s only me but 
+273,1,Let’s talk about
+274,1,This is unclear
+275,0,I think this is unclear
+276,1,Please update
+277,0,Can you please update
+278,1,I have yet to learn how
+279,0,I’m not good at 
+280,1,This is what I see
+281,1,Thank you for the information
+282,0,"I am not sure my opinion is so important ,  I still hope I am not bothering you to say"
+283,0,Sorry if I look tired
+284,0,Sorry about the dog in the background
+285,0,Sorry I’m eating on video here
+286,0,I could have learned more
+287,0,I am sure you know more than me
+288,0,I still just want to consider
+289,0,I am not sure my opinion is so important
+290,1,Do it right now!
+291,0,I still hope I am not bothering you to say
+292,0,I worry that asking might not be wright but i want to know
+293,0,is it ok to ask how you feel about this
+294,0,I am not sure I should ask you
+295,0,It is possible that the way I am thinking is wrong
+296,0,I don't want to bother you
+297,0,I am sure it isn't important but
+298,0,I just hope this is worth your time
+299,0,please listen
+300,1,lets meet
+301,0,can we meet in my office
+302,1,I deserve your attention
+303,1,i am ready
+304,1,lets do this
+305,0,we should meet
+306,1,i want your time
+307,0,can you please listen
+308,0,should we meet after the meeting
+309,0,I am sorry to bring this up
+310,1,you pissed me off
+311,0,i feel terrible
+312,1,you are bad and should feel bad
+313,1,"I shouldn't be, but I am a terror"
+314,1,while i feel terrible I will now fire you
