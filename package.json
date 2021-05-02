@@ -20,6 +20,7 @@
     "colors": "^1.4.0",
     "json-rules-engine": "^6.0.0",
     "lodash": "^4.17.21",
+    "node-rules": "^6.3.0",
     "nools": "^0.4.4"
   }
 }
