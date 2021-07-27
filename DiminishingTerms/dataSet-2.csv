@@ -1,0 +1,316 @@
+id,tag,sentence
+1,diminishing ,I’m no expert but  
+2,strong ,This is what I see
+3,diminishing ,It’s just my opinion  
+4,strong,It’s my opinion 
+5,diminishing ,Just checking in  
+6,strong,Checking in
+7,diminishing ,Just seeing how you feel about this 
+8,strong, How do you feel about this
+9,diminishing ,I just think 
+10,strong, I think
+11,diminishing ,Does this make sense 
+12,strong,Tell me your thoughts
+13,diminishing ,Do you get what I’m saying 
+14,strong, Is this clear
+15,diminishing ,Do you see what I’m saying  
+16,strong,Is this clear
+17,diminishing ,Am I making sense  
+18,strong,Is this clear
+19,diminishing ,I actually disagree 
+20,strong, I disagree
+21,diminishing ,Correct me if I’m wrong  
+21,strong,What is your opinion
+22,diminishing ,I think I can do that   
+23,strong,I can do that
+24,diminishing ,I’m hopeless at  
+25,strong,I’m learning how to
+26,diminishing ,I will try  
+27,strong, I will do
+28,diminishing ,I’m nervous  
+29,strong, I’m excited
+30,diminishing ,I hope I can    
+31,strong,I’m confident I will 
+32,diminishing ,It’s really hard   
+33,strong, It’s a welcome challenge
+34,diminishing ,I’m not good at 
+35,strong, I have yet to learn how
+36,diminishing ,Can you please update  
+37,strong, Please update
+38,diminishing ,I think this is unclear 
+39,strong, This is unclear
+40,diminishing ,If you don’t mind  
+41,strong, Let’s talk about
+42,diminishing ,I just wanted to  
+43,strong,I want to
+44,diminishing ,I hope it is ok to start 
+45,strong, Let’s start
+46,diminishing ,I may be wrong but  
+47,strong,Let’s brainstorm
+48,diminishing ,If it’s ok with you  
+49,strong,Let’s explore
+50,diminishing ,Maybe it’s only me but 
+51,strong, How do you see it?
+52,diminishing ,I don’t want to bother you but  
+53,strong,Do you have time
+54,diminishing ,I’m sorry for making you wait  
+55,strong,Thank you for waiting
+56,diminishing ,My apologies  
+57,strong,Thank you for your patience
+58,diminishing ,Sorry to intrude  
+59,strong,I would like to add to this
+60,diminishing ,Sorry to bother you 
+61,strong,Thank you for taking the time
+62,diminishing ,My bad 
+63,strong, I stand corrected
+64,diminishing ,"Sorry, what was that?   "
+65,strong,Please repeat what you said
+66,diminishing ,Sorry about the noise in the background 
+67,strong,Thank you for putting up with 
+68,diminishing ,Sorry if you didn’t see it 
+69,strong,I missed that
+70,diminishing ,Sorry I’m eating on video here 
+71,strong,Sorry for the inconvinience
+72,diminishing ,Sorry about the dog in the background 
+73,strong,Sorry if I look tired 
+74,diminishing ,"Sorry, I didn’t know "
+75,strong, Thank you for the information
+76,diminishing,"I'm so sorry, I do apologize."
+77,diminishing,"Sorry, I don't mean to butt in."
+78,diminishing,"I'm sorry, I've forgotten your name."
+79,diminishing,"Sorry, I can't play tennis with u tomorrow."
+80,diminishing,I am sorry I must disapprove of your action.
+81,diminishing,I'm sorry to be late again.
+82,diminishing,"Sorry, I didn't mean to frighten you."
+83,diminishing,"Sorry, I do not love you."
+84,diminishing,I'm sorry I'm late: My car had a puncture.
+85,diminishing, I'm sorry I can't assist you.
+86,diminishing,I'm sorry I'm a bit early.
+87,diminishing,"I'm sorry, she's tied up at the moment."
+88,diminishing,"Sorry, I'm a stranger here, too."
+89,diminishing,"I'm sorry, but I'm busy right now."
+90,diminishing,I am sorry for what I have done.
+91,diminishing,I'm sorry you had a wasted journey.
+92,diminishing,"Sorry, I must have dialled the wrong number."
+93,diminishing,Would you please do this for me?
+94,diminishing,Please could I leave early today?
+95,diminishing,Please wait for a minute
+96,diminishing,"Will you call your dog off, please?"
+97,diminishing,"Between us, please always remember me."
+98,diminishing,"Could you wait for me, please?"
+99,diminishing,I must apologise for my outrageous behaviour.
+100,diminishing,I apologise for any embarrassment this may have caused.
+101,diminishing,I must apologise that if I offended you I didn't mean to.
+102,diminishing,I apologise for any inconvenience caused.
+103,diminishing, I apologise if I did not make myself clear.
+104,diminishing, I apologise for the delay in arriving.
+105,diminishing,I apologise for the delay in replying to you.
+106,diminishing, Would it bother you if I smoked?
+107,diminishing, I don't want to bother you.
+108,diminishing,"I hate to bother you, but can I ask you a question?"
+109,diminishing, Will it bother you if I turn the television on?
+110,diminishing,"I'm sorry to bother you, but could you tell me the way to the station?"
+111,diminishing,Please repeat what you said.
+112,diminishing," Please repeat what you said, I didn't quite catch on."
+113,diminishing,"Can you  please repeat the phone number slowly, sir."
+114,diminishing,I'm embarrassed of myself.
+115,diminishing,"When I began to sing, he laughed and made me embarrassed."
+116,diminishing, I am embarrassed and I apologise for what I did.
+117,diminishing,I'm embarrassed of myself.
+118,diminishing,"When I began to sing, he laughed and made me embarrassed."
+119,diminishing, I am embarrassed and I apologise for what I did.
+120,diminishing,I am sorry for not answering your letter sooner.
+121,diminishing,I'm sorry. We are quite full tonight.
+122,diminishing,Sorry for the short notice.
+123,diminishing, I’m not sure but 
+124,diminishing,  I’m haven’t studied that but
+125,diminishing,"  How should I know, but "
+126,diminishing,"How could I know , but "
+127,diminishing,Its kinda my opinion
+128,diminishing,Not that my opinion is important
+129,diminishing,Im not sure you need to hear my opinion  
+130,diminishing,Is it ok to check in
+131,diminishing,Maybe checking in
+132,diminishing,Kinda checking in
+133,diminishing,"If its ok, seeing how you feel about this "
+134,diminishing,I am not sure but seeing how you feel about this
+135,diminishing,Wondering if you want to know how i feel about this
+136,diminishing,I want to be careful before i say 
+137,diminishing,Not to say to much about how i think
+138,diminishing,It might not matter but i just think
+139,diminishing,If you care to know I just think
+140,diminishing,Do you think this makes sense
+141,diminishing,Is this ok 
+142,diminishing,Does my thoughts make any sense
+143,diminishing,What i am saying might not matter but
+144,diminishing,I am not sure I am being clear
+145,diminishing,It might be  hard to understand me but
+146,diminishing,"I’,m not sure about that"
+147,diminishing,I’m concert about that
+148,diminishing,"I don’t want to disagree,"
+149,diminishing,I am not sure i should say anything but
+150,diminishing,You might have a better idea but 
+151,diminishing,Its possible i haven’t thought about everything but
+152,diminishing,I am not sure that i am wright but
+153,diminishing,I might be able to do that
+154,diminishing,I could try to do that
+155,diminishing,I will try to do that
+156,diminishing,I know I am no good at 
+157,diminishing,I am anxious that I will do a bad job 
+158,diminishing,I am such a beginner 
+159,diminishing,I am unsure
+160,diminishing,I am not hopeful but
+161,diminishing,I am a disaster
+162,diminishing,I might be able to do
+163,diminishing,I am worried
+164,diminishing,I am apprehensive
+165,diminishing,I am shaky
+166,diminishing,This will be a scary hard
+167,diminishing,This will be a struggle
+168,diminishing,I am super intimidated
+169,diminishing,This is not my strength
+170,diminishing,I never thought i could
+171,diminishing,I might
+172,diminishing,If you don’t mind can you update
+173,diminishing,If you don’t mind can you please update
+174,diminishing,If its no trouble can you update
+175,diminishing,If its no trouble can you please update
+176,diminishing,Can you possibly find some moment to update me
+177,diminishing,I don’t want to bother you but can you update me
+178,diminishing,I don’t want to bother you but might you update me
+179,diminishing,I would be super grateful if you can update me
+180,diminishing,I would be humbled if you can update me
+181,diminishing,Its possible this is unclear
+182,diminishing,I don’t want to bother you but this might be unclear
+183,diminishing,I think this might be unclear
+184,diminishing,It might not be my place to say but this might be unclear
+185,diminishing,It might not be my place but i think this is unclear
+186,diminishing,I’m embarrassed for making you wait
+187,diminishing,I’m embarrassed to make you wait
+188,diminishing,I’m sorry to make you wait
+189,diminishing,I’m so very sorry to make you wait
+190,diminishing,I’m very embarrassed to make you wait
+191,diminishing,I feel bad for making you wait 
+192,diminishing,I am bad for making you wait
+193,diminishing,Am I intruding
+194,diminishing,I don’t want to take your time but
+195,diminishing,I didn’t want to take your time but
+196,diminishing,I am so sorry
+197,diminishing,My bad 
+198,diminishing,I am sorry 
+199,diminishing,If its ok to start
+200,diminishing,If everyone is ready and its ok to start
+201,diminishing,I was just wondering
+202,diminishing,Not to bother you
+203,diminishing,I feel bad for intruding
+204,diminishing,Its my fault
+205,diminishing,I’m to blame 
+206,diminishing,I shouldn’t have done that
+207,diminishing,I will never do that again but
+208,diminishing,"Sorry, I wasn’t listening, what was that "
+209,diminishing,"Sorry, I wasn’t listening, please repeat what you said"
+210,diminishing,"Sorry, I was distracted, what was that"
+211,diminishing,"Sorry, I was distracted, "
+212,diminishing,please repeat what you said
+213,strong,Checking in
+214,diminishing,I am sorry to be disturbing you but i just wanted to know how you are  and hope its ok to check in
+215,strong,It’s my opinion 
+216,strong,I think
+217,diminishing,"It is possible that the way I am thinking is wrong, I just think"
+218,strong,How do you feel about this
+219,diminishing,"I worry that asking might not be wright but i want to know,  is it ok to ask how you feel about this"
+220,strong,I’m confident I will 
+221,diminishing,I hope I can 
+222,strong,I’m excited
+223,diminishing,I am worried and nervous and have butterflies just worrying about it 
+224,strong,I will do
+225,diminishing,"I am not sure I can succeed, and so please forgive me if I have trouble,  but I will try"
+226,strong,I’m learning how to
+227,diminishing,"get it, in fact maybe i am hopeless at it "
+228,diminishing,"I doubt I can help, and i might not be good at it, and i sometime take a lot of time to"
+229,strong,  I can do that
+230,diminishing,"I imagine that if I try and I am lucky too, I might be able to do that"
+231,strong,What is your opinion ?
+232,diminishing,"I hope I am not being too intrusive, and   maybe i don’t need to know , and  not sure it matters but,  might you maybe share your opinion "
+233,strong,I disagree
+234,diminishing,I actually disagree 
+235,strong,Is this clear
+236,diminishing,"Please help me know, I am not sure I am making sense, i don’t want to be misunderstood, is this clear ?"
+237,strong,Is this clear
+238,diminishing,"If its ok to ask,  i was just hoping that you might see what I am saying"
+239,strong,Is this clear
+240,diminishing,"I am worried I am not clear, I want to be careful to be understood, is it ok to ask if i am being clear"
+241,strong,Tell me your thoughts
+242,diminishing,"I defer to you but I want to hear anyway, is it ok to ask you to take a moment to tell me your thoughts"
+243,strong,I missed that
+244,diminishing,Sorry if you didn’t see it 
+245,diminishing,Sorry about the noise in the background
+246,diminishing,"Sorry, what was that?"
+247,strong,Please repeat what you said
+248,diminishing,My bad
+249,strong,Thank you for taking the time
+250,diminishing,Sorry to bother you 
+251,strong,Thank you for taking the time
+252,diminishing,Sorry to intrude
+253,diminishing,My apologies 
+254,strong,Thank you for waiting
+255,diminishing,I’m sorry for making you wait
+256,strong,Thank you for putting up with 
+257,diminishing,I don’t want to bother you but
+258,strong,How do you see it?
+259,strong,It’s a welcome challenge
+260,diminishing,It’s really hard 
+261,diminishing,"Sorry, I didn’t know "
+262,diminishing,"I am sure you know more than me, I could have learned more, I still just want to consider "
+263,strong,I want to
+264,diminishing,I hope it is ok to start 
+265,strong,Let’s start
+266,diminishing,I may be wrong but
+267,strong,Let’s brainstorm
+268,diminishing,I just wanted to
+269,diminishing,If you don’t mind 
+270,diminishing,If it’s ok with you
+271,strong,Let’s explore
+272,diminishing,Maybe it’s only me but 
+273,strong,Let’s talk about
+274,strong,This is unclear
+275,diminishing,I think this is unclear
+276,strong,Please update
+277,diminishing,Can you please update
+278,strong,I have yet to learn how
+279,diminishing,I’m not good at 
+280,strong,This is what I see
+281,strong,Thank you for the information
+282,diminishing,"I am not sure my opinion is so important ,  I still hope I am not bothering you to say"
+283,diminishing,Sorry if I look tired
+284,diminishing,Sorry about the dog in the background
+285,diminishing,Sorry I’m eating on video here
+286,diminishing,I could have learned more
+287,diminishing,I am sure you know more than me
+288,diminishing,I still just want to consider
+289,diminishing,I am not sure my opinion is so important
+290,strong,Do it right now!
+291,diminishing,I still hope I am not bothering you to say
+292,diminishing,I worry that asking might not be wright but i want to know
+293,diminishing,is it ok to ask how you feel about this
+294,diminishing,I am not sure I should ask you
+295,diminishing,It is possible that the way I am thinking is wrong
+296,diminishing,I don't want to bother you
+297,diminishing,I am sure it isn't important but
+298,diminishing,I just hope this is worth your time
+299,diminishing,please listen
+300,strong,lets meet
+301,diminishing,can we meet in my office
+302,strong,I deserve your attention
+303,strong,i am ready
+304,strong,lets do this
+305,diminishing,we should meet
+306,strong,i want your time
+307,diminishing,can you please listen
+308,diminishing,should we meet after the meeting
+309,diminishing,I am sorry to bring this up
+310,strong,you pissed me off
+311,diminishing,i feel terrible
+312,strong,you are bad and should feel bad
+313,strong,"I shouldn't be, but I am a terror"
+314,strong,while i feel terrible I will now fire you
