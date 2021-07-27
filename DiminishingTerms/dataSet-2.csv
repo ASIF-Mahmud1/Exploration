@@ -1,79 +1,79 @@
 id,tag,sentence
-1,diminishing ,I’m no expert but  
+1,diminishing ,Iï¿½m no expert but ï¿½
 2,strong ,This is what I see
-3,diminishing ,It’s just my opinion  
-4,strong,It’s my opinion 
-5,diminishing ,Just checking in  
+3,diminishing ,Itï¿½s just my opinion ï¿½
+4,strong,Itï¿½s my opinionï¿½
+5,diminishing ,Just checking in ï¿½
 6,strong,Checking in
 7,diminishing ,Just seeing how you feel about this 
-8,strong, How do you feel about this
+8,strong,ï¿½How do you feel about this
 9,diminishing ,I just think 
-10,strong, I think
+10,strong,ï¿½I think
 11,diminishing ,Does this make sense 
 12,strong,Tell me your thoughts
-13,diminishing ,Do you get what I’m saying 
-14,strong, Is this clear
-15,diminishing ,Do you see what I’m saying  
+13,diminishing ,Do you get what Iï¿½m saying 
+14,strong,ï¿½Is this clear
+15,diminishing ,Do you see what Iï¿½m saying ï¿½
 16,strong,Is this clear
-17,diminishing ,Am I making sense  
+17,diminishing ,Am I making sense ï¿½
 18,strong,Is this clear
 19,diminishing ,I actually disagree 
-20,strong, I disagree
-21,diminishing ,Correct me if I’m wrong  
+20,strong,ï¿½I disagree
+21,diminishing ,Correct me if Iï¿½m wrong ï¿½
 21,strong,What is your opinion
-22,diminishing ,I think I can do that   
+22,diminishing ,I think I can do that ï¿½ï¿½
 23,strong,I can do that
-24,diminishing ,I’m hopeless at  
-25,strong,I’m learning how to
-26,diminishing ,I will try  
-27,strong, I will do
-28,diminishing ,I’m nervous  
-29,strong, I’m excited
-30,diminishing ,I hope I can    
-31,strong,I’m confident I will 
-32,diminishing ,It’s really hard   
-33,strong, It’s a welcome challenge
-34,diminishing ,I’m not good at 
-35,strong, I have yet to learn how
-36,diminishing ,Can you please update  
-37,strong, Please update
+24,diminishing ,Iï¿½m hopeless at ï¿½
+25,strong,Iï¿½m learning how to
+26,diminishing ,I will try ï¿½
+27,strong,ï¿½I will do
+28,diminishing ,Iï¿½m nervous ï¿½
+29,strong,ï¿½Iï¿½m excited
+30,diminishing ,I hope I canï¿½ ï¿½ï¿½
+31,strong,Iï¿½m confident I willï¿½
+32,diminishing ,Itï¿½s really hardï¿½ ï¿½
+33,strong,ï¿½Itï¿½s a welcome challenge
+34,diminishing ,Iï¿½m not good at 
+35,strong,ï¿½I have yet to learn how
+36,diminishing ,Can you please updateï¿½ 
+37,strong,ï¿½Please update
 38,diminishing ,I think this is unclear 
-39,strong, This is unclear
-40,diminishing ,If you don’t mind  
-41,strong, Let’s talk about
-42,diminishing ,I just wanted to  
+39,strong,ï¿½This is unclear
+40,diminishing ,If you donï¿½t mindï¿½ 
+41,strong,ï¿½Letï¿½s talk about
+42,diminishing ,I just wanted to ï¿½
 43,strong,I want to
 44,diminishing ,I hope it is ok to start 
-45,strong, Let’s start
-46,diminishing ,I may be wrong but  
-47,strong,Let’s brainstorm
-48,diminishing ,If it’s ok with you  
-49,strong,Let’s explore
-50,diminishing ,Maybe it’s only me but 
-51,strong, How do you see it?
-52,diminishing ,I don’t want to bother you but  
+45,strong,ï¿½Letï¿½s start
+46,diminishing ,I may be wrong but ï¿½
+47,strong,Letï¿½s brainstorm
+48,diminishing ,If itï¿½s ok with you ï¿½
+49,strong,Letï¿½s explore
+50,diminishing ,Maybe itï¿½s only me but 
+51,strong,ï¿½How do you see it?
+52,diminishing ,I donï¿½t want to bother you but ï¿½
 53,strong,Do you have time
-54,diminishing ,I’m sorry for making you wait  
+54,diminishing ,Iï¿½m sorry for making you waitï¿½ï¿½
 55,strong,Thank you for waiting
-56,diminishing ,My apologies  
+56,diminishing ,My apologiesï¿½ï¿½
 57,strong,Thank you for your patience
-58,diminishing ,Sorry to intrude  
+58,diminishing ,Sorry to intrudeï¿½ï¿½
 59,strong,I would like to add to this
-60,diminishing ,Sorry to bother you 
+60,diminishing ,Sorry to bother youï¿½
 61,strong,Thank you for taking the time
-62,diminishing ,My bad 
-63,strong, I stand corrected
-64,diminishing ,"Sorry, what was that?   "
+62,diminishing ,My badï¿½
+63,strong,ï¿½I stand corrected
+64,diminishing ,"Sorry, what was that?ï¿½ï¿½ï¿½"
 65,strong,Please repeat what you said
-66,diminishing ,Sorry about the noise in the background 
-67,strong,Thank you for putting up with 
-68,diminishing ,Sorry if you didn’t see it 
+66,diminishing ,Sorry about the noise in the backgroundï¿½
+67,strong,Thank you for putting up withï¿½
+68,diminishing ,Sorry if you didnï¿½t see itï¿½
 69,strong,I missed that
-70,diminishing ,Sorry I’m eating on video here 
+70,diminishing ,Sorry Iï¿½m eating on video hereï¿½
 71,strong,Sorry for the inconvinience
-72,diminishing ,Sorry about the dog in the background 
-73,strong,Sorry if I look tired 
-74,diminishing ,"Sorry, I didn’t know "
+72,diminishing ,Sorry about the dog in the backgroundï¿½
+73,strong,Sorry if I look tiredï¿½
+74,diminishing ,"Sorry, I didnï¿½t know "
 75,strong, Thank you for the information
 76,diminishing,"I'm so sorry, I do apologize."
 77,diminishing,"Sorry, I don't mean to butt in."
@@ -84,7 +84,7 @@ id,tag,sentence
 82,diminishing,"Sorry, I didn't mean to frighten you."
 83,diminishing,"Sorry, I do not love you."
 84,diminishing,I'm sorry I'm late: My car had a puncture.
-85,diminishing, I'm sorry I can't assist you.
+85,diminishing,ï¿½I'm sorry I can't assist you.
 86,diminishing,I'm sorry I'm a bit early.
 87,diminishing,"I'm sorry, she's tied up at the moment."
 88,diminishing,"Sorry, I'm a stranger here, too."
@@ -102,28 +102,28 @@ id,tag,sentence
 100,diminishing,I apologise for any embarrassment this may have caused.
 101,diminishing,I must apologise that if I offended you I didn't mean to.
 102,diminishing,I apologise for any inconvenience caused.
-103,diminishing, I apologise if I did not make myself clear.
-104,diminishing, I apologise for the delay in arriving.
+103,diminishing,ï¿½I apologise if I did not make myself clear.
+104,diminishing,ï¿½I apologise for the delay in arriving.
 105,diminishing,I apologise for the delay in replying to you.
-106,diminishing, Would it bother you if I smoked?
-107,diminishing, I don't want to bother you.
+106,diminishing,ï¿½Would it bother you if I smoked?
+107,diminishing,ï¿½I don't want to bother you.
 108,diminishing,"I hate to bother you, but can I ask you a question?"
-109,diminishing, Will it bother you if I turn the television on?
+109,diminishing,ï¿½Will it bother you if I turn the television on?
 110,diminishing,"I'm sorry to bother you, but could you tell me the way to the station?"
 111,diminishing,Please repeat what you said.
-112,diminishing," Please repeat what you said, I didn't quite catch on."
-113,diminishing,"Can you  please repeat the phone number slowly, sir."
+112,diminishing,"ï¿½Please repeat what you said, I didn't quite catch on."
+113,diminishing,"Can youï¿½ please repeat the phone number slowly, sir."
 114,diminishing,I'm embarrassed of myself.
 115,diminishing,"When I began to sing, he laughed and made me embarrassed."
-116,diminishing, I am embarrassed and I apologise for what I did.
+116,diminishing,ï¿½I am embarrassed and I apologise for what I did.
 117,diminishing,I'm embarrassed of myself.
 118,diminishing,"When I began to sing, he laughed and made me embarrassed."
-119,diminishing, I am embarrassed and I apologise for what I did.
+119,diminishing,ï¿½I am embarrassed and I apologise for what I did.
 120,diminishing,I am sorry for not answering your letter sooner.
 121,diminishing,I'm sorry. We are quite full tonight.
 122,diminishing,Sorry for the short notice.
-123,diminishing, I’m not sure but 
-124,diminishing,  I’m haven’t studied that but
+123,diminishing, Iï¿½m not sure but 
+124,diminishing,  Iï¿½m havenï¿½t studied that but
 125,diminishing,"  How should I know, but "
 126,diminishing,"How could I know , but "
 127,diminishing,Its kinda my opinion
@@ -132,32 +132,32 @@ id,tag,sentence
 130,diminishing,Is it ok to check in
 131,diminishing,Maybe checking in
 132,diminishing,Kinda checking in
-133,diminishing,"If its ok, seeing how you feel about this "
+133,diminishing,"If its ok, seeing how you feel about thisï¿½"
 134,diminishing,I am not sure but seeing how you feel about this
 135,diminishing,Wondering if you want to know how i feel about this
-136,diminishing,I want to be careful before i say 
+136,diminishing,I want to be careful before i sayï¿½
 137,diminishing,Not to say to much about how i think
 138,diminishing,It might not matter but i just think
 139,diminishing,If you care to know I just think
 140,diminishing,Do you think this makes sense
-141,diminishing,Is this ok 
+141,diminishing,Is this okï¿½
 142,diminishing,Does my thoughts make any sense
 143,diminishing,What i am saying might not matter but
 144,diminishing,I am not sure I am being clear
-145,diminishing,It might be  hard to understand me but
-146,diminishing,"I’,m not sure about that"
-147,diminishing,I’m concert about that
-148,diminishing,"I don’t want to disagree,"
+145,diminishing,It might beï¿½ hard to understand me but
+146,diminishing,"Iï¿½,m not sure about that"
+147,diminishing,Iï¿½m concert about that
+148,diminishing,"I donï¿½t want to disagree,"
 149,diminishing,I am not sure i should say anything but
-150,diminishing,You might have a better idea but 
-151,diminishing,Its possible i haven’t thought about everything but
+150,diminishing,You might have a better idea butï¿½
+151,diminishing,Its possible i havenï¿½t thought about everything but
 152,diminishing,I am not sure that i am wright but
 153,diminishing,I might be able to do that
 154,diminishing,I could try to do that
 155,diminishing,I will try to do that
-156,diminishing,I know I am no good at 
-157,diminishing,I am anxious that I will do a bad job 
-158,diminishing,I am such a beginner 
+156,diminishing,I know I am no good atï¿½
+157,diminishing,I am anxious that I will do a bad jobï¿½
+158,diminishing,I am such a beginnerï¿½
 159,diminishing,I am unsure
 160,diminishing,I am not hopeful but
 161,diminishing,I am a disaster
@@ -171,32 +171,32 @@ id,tag,sentence
 169,diminishing,This is not my strength
 170,diminishing,I never thought i could
 171,diminishing,I might
-172,diminishing,If you don’t mind can you update
-173,diminishing,If you don’t mind can you please update
+172,diminishing,If you donï¿½t mind can you update
+173,diminishing,If you donï¿½t mind can you please update
 174,diminishing,If its no trouble can you update
 175,diminishing,If its no trouble can you please update
 176,diminishing,Can you possibly find some moment to update me
-177,diminishing,I don’t want to bother you but can you update me
-178,diminishing,I don’t want to bother you but might you update me
+177,diminishing,I donï¿½t want to bother you but can you update me
+178,diminishing,I donï¿½t want to bother you but might you update me
 179,diminishing,I would be super grateful if you can update me
 180,diminishing,I would be humbled if you can update me
 181,diminishing,Its possible this is unclear
-182,diminishing,I don’t want to bother you but this might be unclear
+182,diminishing,I donï¿½t want to bother you but this might be unclear
 183,diminishing,I think this might be unclear
 184,diminishing,It might not be my place to say but this might be unclear
 185,diminishing,It might not be my place but i think this is unclear
-186,diminishing,I’m embarrassed for making you wait
-187,diminishing,I’m embarrassed to make you wait
-188,diminishing,I’m sorry to make you wait
-189,diminishing,I’m so very sorry to make you wait
-190,diminishing,I’m very embarrassed to make you wait
-191,diminishing,I feel bad for making you wait 
+186,diminishing,Iï¿½m embarrassed for making you wait
+187,diminishing,Iï¿½m embarrassed to make you wait
+188,diminishing,Iï¿½m sorry to make you wait
+189,diminishing,Iï¿½m so very sorry to make you wait
+190,diminishing,Iï¿½m very embarrassed to make you wait
+191,diminishing,I feel bad for making you waitï¿½
 192,diminishing,I am bad for making you wait
 193,diminishing,Am I intruding
-194,diminishing,I don’t want to take your time but
-195,diminishing,I didn’t want to take your time but
+194,diminishing,I donï¿½t want to take your time but
+195,diminishing,I didnï¿½t want to take your time but
 196,diminishing,I am so sorry
-197,diminishing,My bad 
+197,diminishing,My badï¿½
 198,diminishing,I am sorry 
 199,diminishing,If its ok to start
 200,diminishing,If everyone is ready and its ok to start
@@ -204,87 +204,87 @@ id,tag,sentence
 202,diminishing,Not to bother you
 203,diminishing,I feel bad for intruding
 204,diminishing,Its my fault
-205,diminishing,I’m to blame 
-206,diminishing,I shouldn’t have done that
+205,diminishing,Iï¿½m to blameï¿½
+206,diminishing,I shouldnï¿½t have done that
 207,diminishing,I will never do that again but
-208,diminishing,"Sorry, I wasn’t listening, what was that "
-209,diminishing,"Sorry, I wasn’t listening, please repeat what you said"
+208,diminishing,"Sorry, I wasnï¿½t listening, what was thatï¿½"
+209,diminishing,"Sorry, I wasnï¿½t listening, please repeat what you said"
 210,diminishing,"Sorry, I was distracted, what was that"
-211,diminishing,"Sorry, I was distracted, "
+211,diminishing,"Sorry, I was distracted,ï¿½"
 212,diminishing,please repeat what you said
 213,strong,Checking in
-214,diminishing,I am sorry to be disturbing you but i just wanted to know how you are  and hope its ok to check in
-215,strong,It’s my opinion 
+214,diminishing,I am sorry to be disturbing you but i just wanted to know how you areï¿½ and hope its ok to check in
+215,strong,Itï¿½s my opinionï¿½
 216,strong,I think
 217,diminishing,"It is possible that the way I am thinking is wrong, I just think"
 218,strong,How do you feel about this
-219,diminishing,"I worry that asking might not be wright but i want to know,  is it ok to ask how you feel about this"
-220,strong,I’m confident I will 
-221,diminishing,I hope I can 
-222,strong,I’m excited
-223,diminishing,I am worried and nervous and have butterflies just worrying about it 
+219,diminishing,"I worry that asking might not be wright but i want to know,ï¿½ is it ok to ask how you feel about this"
+220,strong,Iï¿½m confident I willï¿½
+221,diminishing,I hope I canï¿½
+222,strong,Iï¿½m excited
+223,diminishing,I am worried and nervous and have butterflies just worrying about itï¿½
 224,strong,I will do
-225,diminishing,"I am not sure I can succeed, and so please forgive me if I have trouble,  but I will try"
-226,strong,I’m learning how to
-227,diminishing,"get it, in fact maybe i am hopeless at it "
+225,diminishing,"I am not sure I can succeed, and so please forgive me if I have trouble,ï¿½ but I will try"
+226,strong,Iï¿½m learning how to
+227,diminishing,"get it, in fact maybe i am hopeless at itï¿½"
 228,diminishing,"I doubt I can help, and i might not be good at it, and i sometime take a lot of time to"
-229,strong,  I can do that
+229,strong,ï¿½ I can do that
 230,diminishing,"I imagine that if I try and I am lucky too, I might be able to do that"
 231,strong,What is your opinion ?
-232,diminishing,"I hope I am not being too intrusive, and   maybe i don’t need to know , and  not sure it matters but,  might you maybe share your opinion "
+232,diminishing,"I hope I am not being too intrusive, and ï¿½ maybe i donï¿½t need to know , andï¿½ not sure it matters but,ï¿½ might you maybe share your opinionï¿½"
 233,strong,I disagree
-234,diminishing,I actually disagree 
+234,diminishing,I actually disagreeï¿½
 235,strong,Is this clear
-236,diminishing,"Please help me know, I am not sure I am making sense, i don’t want to be misunderstood, is this clear ?"
+236,diminishing,"Please help me know, I am not sure I am making sense, i donï¿½t want to be misunderstood, is this clear ?"
 237,strong,Is this clear
-238,diminishing,"If its ok to ask,  i was just hoping that you might see what I am saying"
+238,diminishing,"If its ok to ask,ï¿½ i was just hoping that you might see what I am saying"
 239,strong,Is this clear
 240,diminishing,"I am worried I am not clear, I want to be careful to be understood, is it ok to ask if i am being clear"
 241,strong,Tell me your thoughts
 242,diminishing,"I defer to you but I want to hear anyway, is it ok to ask you to take a moment to tell me your thoughts"
 243,strong,I missed that
-244,diminishing,Sorry if you didn’t see it 
+244,diminishing,Sorry if you didnï¿½t see itï¿½
 245,diminishing,Sorry about the noise in the background
 246,diminishing,"Sorry, what was that?"
 247,strong,Please repeat what you said
 248,diminishing,My bad
 249,strong,Thank you for taking the time
-250,diminishing,Sorry to bother you 
+250,diminishing,Sorry to bother youï¿½
 251,strong,Thank you for taking the time
 252,diminishing,Sorry to intrude
-253,diminishing,My apologies 
+253,diminishing,My apologiesï¿½
 254,strong,Thank you for waiting
-255,diminishing,I’m sorry for making you wait
-256,strong,Thank you for putting up with 
-257,diminishing,I don’t want to bother you but
+255,diminishing,Iï¿½m sorry for making you wait
+256,strong,Thank you for putting up withï¿½
+257,diminishing,I donï¿½t want to bother you but
 258,strong,How do you see it?
-259,strong,It’s a welcome challenge
-260,diminishing,It’s really hard 
-261,diminishing,"Sorry, I didn’t know "
-262,diminishing,"I am sure you know more than me, I could have learned more, I still just want to consider "
+259,strong,Itï¿½s a welcome challenge
+260,diminishing,Itï¿½s really hardï¿½
+261,diminishing,"Sorry, I didnï¿½t know "
+262,diminishing,"I am sure you know more than me, I could have learned more, I still just want to considerï¿½"
 263,strong,I want to
-264,diminishing,I hope it is ok to start 
-265,strong,Let’s start
+264,diminishing,I hope it is ok to startï¿½
+265,strong,Letï¿½s start
 266,diminishing,I may be wrong but
-267,strong,Let’s brainstorm
+267,strong,Letï¿½s brainstorm
 268,diminishing,I just wanted to
-269,diminishing,If you don’t mind 
-270,diminishing,If it’s ok with you
-271,strong,Let’s explore
-272,diminishing,Maybe it’s only me but 
-273,strong,Let’s talk about
+269,diminishing,If you donï¿½t mindï¿½
+270,diminishing,If itï¿½s ok with you
+271,strong,Letï¿½s explore
+272,diminishing,Maybe itï¿½s only me butï¿½
+273,strong,Letï¿½s talk about
 274,strong,This is unclear
 275,diminishing,I think this is unclear
 276,strong,Please update
 277,diminishing,Can you please update
 278,strong,I have yet to learn how
-279,diminishing,I’m not good at 
+279,diminishing,Iï¿½m not good atï¿½
 280,strong,This is what I see
 281,strong,Thank you for the information
-282,diminishing,"I am not sure my opinion is so important ,  I still hope I am not bothering you to say"
+282,diminishing,"I am not sure my opinion is so important ,ï¿½ I still hope I am not bothering you to say"
 283,diminishing,Sorry if I look tired
 284,diminishing,Sorry about the dog in the background
-285,diminishing,Sorry I’m eating on video here
+285,diminishing,Sorry Iï¿½m eating on video here
 286,diminishing,I could have learned more
 287,diminishing,I am sure you know more than me
 288,diminishing,I still just want to consider
@@ -314,15 +314,15 @@ id,tag,sentence
 312,strong,you are bad and should feel bad
 313,strong,"I shouldn't be, but I am a terror"
 314,strong,while i feel terrible I will now fire you
-315,diminishing,I’m not sure we ought to be up here
-316,diminishing,I’m not as brave as you are
-317,diminishing,I’m not confident about this
-318,diminishing,I don’t think I’m adequate
-319,diminishing,I don’t think I’m capable
-320,diminishing,I don’t think
+315,diminishing,Iï¿½m not sure we ought to be up here
+316,diminishing,Iï¿½m not as brave as you are
+317,diminishing,Iï¿½m not confident about this
+318,diminishing,I donï¿½t think Iï¿½m adequate
+319,diminishing,I donï¿½t think Iï¿½m capable
+320,diminishing,I donï¿½t think
 321,diminishing,Don't applaud that! Applaud my idiocy.
 322,diminishing,Story of my life! I get no respect!
-323,diminishing,I’m not good looking
+323,diminishing,Iï¿½m not good looking
 324,diminishing,Well aren't I running the self deprecation train right now.
 325,diminishing,"I enjoy the comedy device of self-deprecation, but I'm not very good at it"
 326,diminishing,I'm not very good at this
@@ -330,95 +330,95 @@ id,tag,sentence
 328,diminishing,Shame on me
 329,diminishing,I am so clever that sometimes I don't understand a single word of what I am saying
 330,diminishing,I suck
-331,diminishing,I’m not smart
-332,diminishing,I’m not strong
-333,diminishing,I’m not intelligent
-334,diminishing,I’m not who steals the show
-335,diminishing,I’m not beautiful
-336,diminishing,I’m not the greatest
-337,diminishing,I’m not the hottest
-338,diminishing,I’m not hot
-339,diminishing,I’m not great
-340,diminishing,I’m not brave
-341,diminishing,I’m not ambitious
-342,diminishing,I’m not amazing
-343,diminishing,I’m not optimistic
-344,diminishing,I’m not the kindest
-345,diminishing,I’m not proud of myself
-346,diminishing,I’m not worthy
-347,diminishing,"I’m sorry, but"
-348,diminishing,I think I’m odd
-349,diminishing,I’m not worthy of love
-350,diminishing,I’m not worthy of any attention
-351,diminishing,I’m not worthy of anyone’s time
-352,diminishing,I don’t think I’m worthy
-353,diminishing,I don’t think I’m worthy of any opportunity
-354,diminishing,I don’t think I’m worthy of anyone
-355,diminishing,I don’t think I’m worthy of anyone’s love
-356,diminishing,I don’t think I’m worthy of anyone’s money
-357,diminishing,I don’t think I’m worthy of anyone’s respect
-358,diminishing,I don’t think I’m worthy of anyone’s attention
-359,diminishing,I don’t think I’m worthy of anyone’s compliments
-360,diminishing,I don’t deserve love
-361,diminishing,I don’t deserve opportunities
-362,diminishing,I don’t deserve a job
-363,diminishing,I don’t deserve a life
-364,diminishing,I don’t deserve happiness
-365,diminishing,I don’t deserve to be happy
-366,diminishing,I don’t deserve respect
-367,diminishing,I’m not sure about myself
-368,diminishing,I’m not confident about myself
-369,diminishing,I’m not happy about myself
-370,diminishing,I don’t respect myself
-371,diminishing,I’m not happy with myself
-372,diminishing,"I’m not so sure about this, what do you think?"
-373,diminishing,I don’t know about this
+331,diminishing,Iï¿½m not smart
+332,diminishing,Iï¿½m not strong
+333,diminishing,Iï¿½m not intelligent
+334,diminishing,Iï¿½m not who steals the show
+335,diminishing,Iï¿½m not beautiful
+336,diminishing,Iï¿½m not the greatest
+337,diminishing,Iï¿½m not the hottest
+338,diminishing,Iï¿½m not hot
+339,diminishing,Iï¿½m not great
+340,diminishing,Iï¿½m not brave
+341,diminishing,Iï¿½m not ambitious
+342,diminishing,Iï¿½m not amazing
+343,diminishing,Iï¿½m not optimistic
+344,diminishing,Iï¿½m not the kindest
+345,diminishing,Iï¿½m not proud of myself
+346,diminishing,Iï¿½m not worthy
+347,diminishing,"Iï¿½m sorry, but"
+348,diminishing,I think Iï¿½m odd
+349,diminishing,Iï¿½m not worthy of love
+350,diminishing,Iï¿½m not worthy of any attention
+351,diminishing,Iï¿½m not worthy of anyoneï¿½s time
+352,diminishing,I donï¿½t think Iï¿½m worthy
+353,diminishing,I donï¿½t think Iï¿½m worthy of any opportunity
+354,diminishing,I donï¿½t think Iï¿½m worthy of anyone
+355,diminishing,I donï¿½t think Iï¿½m worthy of anyoneï¿½s love
+356,diminishing,I donï¿½t think Iï¿½m worthy of anyoneï¿½s money
+357,diminishing,I donï¿½t think Iï¿½m worthy of anyoneï¿½s respect
+358,diminishing,I donï¿½t think Iï¿½m worthy of anyoneï¿½s attention
+359,diminishing,I donï¿½t think Iï¿½m worthy of anyoneï¿½s compliments
+360,diminishing,I donï¿½t deserve love
+361,diminishing,I donï¿½t deserve opportunities
+362,diminishing,I donï¿½t deserve a job
+363,diminishing,I donï¿½t deserve a life
+364,diminishing,I donï¿½t deserve happiness
+365,diminishing,I donï¿½t deserve to be happy
+366,diminishing,I donï¿½t deserve respect
+367,diminishing,Iï¿½m not sure about myself
+368,diminishing,Iï¿½m not confident about myself
+369,diminishing,Iï¿½m not happy about myself
+370,diminishing,I donï¿½t respect myself
+371,diminishing,Iï¿½m not happy with myself
+372,diminishing,"Iï¿½m not so sure about this, what do you think?"
+373,diminishing,I donï¿½t know about this
 374,diminishing,I am dumb
 375,diminishing,I am a waste of space
-376,diminishing,My existence doesn’t matter
+376,diminishing,My existence doesnï¿½t matter
 377,diminishing,My existence is a waste
 378,diminishing,My existence is worthless
-379,diminishing,I’m not worth a penny
-380,diminishing,I’m not worth anything
-381,diminishing,I can’t do anything
-382,diminishing,I’m incapable of being useful
-383,diminishing,I’m not useful to anyone
-384,diminishing,I’m not an asset
+379,diminishing,Iï¿½m not worth a penny
+380,diminishing,Iï¿½m not worth anything
+381,diminishing,I canï¿½t do anything
+382,diminishing,Iï¿½m incapable of being useful
+383,diminishing,Iï¿½m not useful to anyone
+384,diminishing,Iï¿½m not an asset
 385,diminishing,I must be an idiot
 386,diminishing,No one will miss me
-387,diminishing,I won’t be missed by anyone
-388,diminishing,I’m a failure
-389,diminishing,I’m a disappointment
-390,diminishing,I’m a disappointment to everyone
-391,diminishing,I’m so ugly
-392,diminishing,I wouldn’t date me
-393,diminishing,I’m not a hero
-394,diminishing,I’m not the one who gets taken home
-395,diminishing,I’m not the chosen one
-396,diminishing,I’m never chosen
+387,diminishing,I wonï¿½t be missed by anyone
+388,diminishing,Iï¿½m a failure
+389,diminishing,Iï¿½m a disappointment
+390,diminishing,Iï¿½m a disappointment to everyone
+391,diminishing,Iï¿½m so ugly
+392,diminishing,I wouldnï¿½t date me
+393,diminishing,Iï¿½m not a hero
+394,diminishing,Iï¿½m not the one who gets taken home
+395,diminishing,Iï¿½m not the chosen one
+396,diminishing,Iï¿½m never chosen
 397,diminishing,I am not good enough
 398,diminishing,I can never be good enough
 399,diminishing,I can never be good enough for anyone
 400,diminishing,I can never be good enough for this job
-401,diminishing,I’m a disappointment to myself
-402,diminishing,I wouldn’t choose myself
+401,diminishing,Iï¿½m a disappointment to myself
+402,diminishing,I wouldnï¿½t choose myself
 403,diminishing,I am hopeless
 404,diminishing,I was a fool to believe in myself
 405,diminishing,I am a wreck
-406,diminishing,I’m not a good person
-407,diminishing,I’m not a reliable friend
-408,diminishing,I wouldn’t rely on me
-409,diminishing,I don’t have any good quality
-410,diminishing,I’m never on time
-411,diminishing,I’m never reliable
-412,diminishing,I can’t be trusted
-413,diminishing,I can’t be given any responsibilities
-414,diminishing,I’m not responsible
-415,diminishing,I’m not punctual
+406,diminishing,Iï¿½m not a good person
+407,diminishing,Iï¿½m not a reliable friend
+408,diminishing,I wouldnï¿½t rely on me
+409,diminishing,I donï¿½t have any good quality
+410,diminishing,Iï¿½m never on time
+411,diminishing,Iï¿½m never reliable
+412,diminishing,I canï¿½t be trusted
+413,diminishing,I canï¿½t be given any responsibilities
+414,diminishing,Iï¿½m not responsible
+415,diminishing,Iï¿½m not punctual
 416,diminishing,I am such a doormat
-417,strong,I'm worthy of everyone’s respect
-418,strong,I'm worthy of everyone’s attention
-419,strong,I'm worthy of everyone’s compliments
+417,strong,I'm worthy of everyoneï¿½s respect
+418,strong,I'm worthy of everyoneï¿½s attention
+419,strong,I'm worthy of everyoneï¿½s compliments
 420,strong,I deserve love
 421,strong,I deserve opportunities
 422,strong,I deserve a job
@@ -426,28 +426,28 @@ id,tag,sentence
 424,strong,I deserve happiness
 425,strong,I deserve to be happy
 426,strong,I deserve respect
-427,strong,I’m sure we ought to be here
-428,strong,I’m as brave as you are
-429,strong,I’m confident about this
-430,strong,I’m adequate
-431,strong,I’m capable
+427,strong,Iï¿½m sure we ought to be here
+428,strong,Iï¿½m as brave as you are
+429,strong,Iï¿½m confident about this
+430,strong,Iï¿½m adequate
+431,strong,Iï¿½m capable
 432,strong,I think
 433,strong,Applaud my intelligence
 434,strong,I will get respect
-435,strong,I’m good looking
+435,strong,Iï¿½m good looking
 436,strong,I am proud of myself
 437,strong,I understand what you are trying to say
-438,strong,I’m awesome
-439,strong,I’m smart
-440,strong,I’m strong
-441,strong,I’m intelligent
-442,strong,I’m the one who steals the show
-443,strong,I’m beautiful
-444,strong,I’m the greatest
-445,strong,I’m the hottest
-446,strong,I’m hot
-447,strong,I’m great
-448,strong,I’m brave
+438,strong,Iï¿½m awesome
+439,strong,Iï¿½m smart
+440,strong,Iï¿½m strong
+441,strong,Iï¿½m intelligent
+442,strong,Iï¿½m the one who steals the show
+443,strong,Iï¿½m beautiful
+444,strong,Iï¿½m the greatest
+445,strong,Iï¿½m the hottest
+446,strong,Iï¿½m hot
+447,strong,Iï¿½m great
+448,strong,Iï¿½m brave
 449,strong,I'm ambitious
 450,strong,I'm amazing
 451,strong,I'm optimistic
@@ -457,9 +457,9 @@ id,tag,sentence
 455,strong,I'm not odd
 456,strong,I'm worthy of love
 457,strong,I'm worthy of love
-458,strong,I'm worthy of everyone’s time
+458,strong,I'm worthy of everyoneï¿½s time
 459,strong,I'm worthy of
 460,strong,I'm worthy of all opportunities
 461,strong,I'm worthy of everyone
-462,strong,I'm worthy of everyone’s love
-463,strong,I'm worthy of everyone’s money
+462,strong,I'm worthy of everyoneï¿½s love
+463,strong,I'm worthy of everyoneï¿½s money
